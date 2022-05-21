@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB ANIME</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.0-web/css/all.css">
+     <link rel="stylesheet" href="./bo-tgdq.css">
+</head>
+<body>
+    <div class="nav">
+           <ul class="nav-list">
+               <li>
+                <a href="" class="nav-item"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" class="nav-item"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="nav-item"><i class="fa-brands fa-telegram"></i></a>
+                <a href="" class="nav-item"><i class="fa-brands fa-facebook-messenger"></i></a>
+               </li>
+            </ul>
+            <ul class="nav-list">
+                <li class="nav-list-li">
+                    <div href="" class="nav-item item-dangnhap" id="dangxuat">Đăng xuất</div>
+                    <div href="" class="nav-item item-dangnhap" id="dangnhap"><div class="dangnhap-phu">Đăng nhập</div>
+                        <div id="bang-dangnhap">
+                            <div id="dau-x-dang">
+                                <i class="fa-solid fa-xmark x-dangnhap" ></i>
+                            </div>
+                            
+                            
+                            <div class="bang-dangnhap-user bang-dangnhap-chung">
+                                <i class="fa-solid fa-user icon-chung"></i>
+                                <input type="text" id="bang-dangnhap-user-input" placeholder="Số điện thoại hoặc email" class="icon-chung bang-dangnhap-input-chung">
+                                
+                            </div>
+                            <div class="bang-dangnhap-pass bang-dangnhap-chung">
+                                <i class="fa-solid fa-lock icon-chung"></i>
+                                <input type="password" id="bang-dangnhap-pass-input" placeholder="Mật khẩu" class="icon-chung bang-dangnhap-input-chung">
+                                <i class="fa-solid fa-eye eye-chung" id="mat-mo"></i>
+                                <i class="fa-solid fa-eye-slash eye-chung" id="mat-dong"></i>
+                            </div>
+                            <button type="submit" id="bang-dangnhap-sup" >Dang nhap</button>
+                            <div class="quenmatkhau-dangnhap" id="quen-mk">Quên mật khẩu!</div>
+                            <hr style="margin-top: 6vw;">
+                            <div class="hoac-tieptuc">Hoặc tiếp tục với</div>
+                            <div class="google-fb">
+                                <i class="fa-brands fa-facebook fb"></i>
+                                <i class="fa-brands fa-google gg"></i>
+                            </div>
+                            
+                        </div>
+                        <div class="bang-quen-matkhau" id="bang-quen-mk">
+                            <div id="dau-x-quen-mk">
+                                <i class="fa-solid fa-xmark x-quen-mk" ></i>
+                            </div>
+                            <p class="lay-lai-matkhau-p">Lay lai mat khau</p>
+                            <input type="text" class="bang-quen-matkhau-iput" id="matkhau-ip1" placeholder="Nhap so dien thoai hoac email">
+                            <input type="text" class="bang-quen-matkhau-iput2" id="matkhau-ip2" placeholder="Nhap ma xac nhan">
+                            <div class="bang-dangnhap-pass bang-dangnhap-chung" id="o-pass1">
+                                <i class="fa-solid fa-lock icon-chung"></i>
+                                <input type="password" id="bang-dangnhap-pass-input2" placeholder="Mật khẩu mới" class="icon-chung bang-dangnhap-input-chung">
+                                <i class="fa-solid fa-eye eye-chung" id="mat-mo2"></i>
+                                <i class="fa-solid fa-eye-slash eye-chung" id="mat-dong2" ></i>
+                            </div>
+                            <div class="bang-dangnhap-pass bang-dangnhap-chung"  id="o-pass2">
+                                <i class="fa-solid fa-lock icon-chung"></i>
+                                <input type="password" id="bang-dangnhap-pass-input3" placeholder="Nhập lại mật khẩu" class="icon-chung bang-dangnhap-input-chung">
+                                <i class="fa-solid fa-eye eye-chung" id="mat-mo3" ></i>
+                                <i class="fa-solid fa-eye-slash eye-chung" id="mat-dong3" ></i>
+                            </div>
+                            <p class="doi-mk-thanhcong" id="hoanthanh-mk">Ban da doi mat khau thanh cong</p>
+                            <button id="quen-matkhau-but" type="submit">Nhận mã</button>
+                            <button id="quen-matkhau-but2" type="submit">Gửi mã</button>
+                            <button id="quen-matkhau-but3" type="submit">Xác nhận</button>
+                            <button id="quen-matkhau-but4" type="submit">Dang nhap</button>
+                        </div>
+                    </div>
+                    <div class="dau-ten-phimhot dau"></div>
+                    <div href="" class="nav-item item-dangnhap" id="dangky">
+                        <div id="nut-dangky">Đăng ký</div>
+                        <div id="bang-dangky">
+                            <div id="dau-x-dangky">
+                                <i class="fa-solid fa-xmark x-dangky" ></i>
+                            </div>
+
+                            <div class="bang-dangnhap-user bang-dangnhap-chung">
+                                <i class="fa-solid fa-user icon-chung"></i>
+                                <input type="text" id="bang-dangky-user-input" placeholder="Số điện thoại hoặc email" class="icon-chung bang-dangnhap-input-chung">
+                                
+                            </div>
+                            <div class="bang-dangnhap-pass bang-dangnhap-chung">
+                                <i class="fa-solid fa-lock icon-chung"></i>
+                                <input type="password" id="bang-dangky-pass-input" placeholder="Mật khẩu" class="icon-chung bang-dangnhap-input-chung">
+                                <i class="fa-solid fa-eye eye-chung" id="mat-mo4"></i>
+                                <i class="fa-solid fa-eye-slash eye-chung" id="mat-dong4"></i>
+                            </div>
+                            <div class="bang-dangnhap-pass bang-dangnhap-chung">
+                                <i class="fa-solid fa-lock icon-chung"></i>
+                                <input type="password" id="bang-dangky-pass-input2" placeholder="Nhap lai mật khẩu" class="icon-chung bang-dangnhap-input-chung">
+                                <i class="fa-solid fa-eye eye-chung" id="mat-mo5"></i>
+                                <i class="fa-solid fa-eye-slash eye-chung" id="mat-dong5"></i>
+                            </div>
+                            <button type="submit" id="bang-dangky-sup" >Dang ky</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            
+            <div class="menu" id="nut-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="bang-menu">
+            </div>
+            <div class="bang-menu-phai" id="menu-phai">
+                <div class="menu-chung menu-theloai" id="dangxuat-rev">
+                    <div class="menu-chung-1"  style="color: #f80;" >Dang xuat</div>
+                
+                </div>
+                
+                <div class="menu-chung menu-theloai" id="dangnhap-repon">
+                    <div class="menu-chung-1"  style="color: #f80;" >Dang nhap</div>
+                
+                </div>
+                <hr>
+                <div class="menu-chung menu-theloai">
+                    <div class="menu-chung-1" id="dangky-repon" style="color: #f80;" >Dang ky</div>
+
+                </div>
+                <hr>
+                <div class="menu-chung menu-theloai">
+                    <div class="menu-chung-1" id="theloai-nut">The loai</div>
+                    
+                </div><hr id="hr-rev">
+                <div class="bang-theloai-rep" id="theloai-bang" >
+                    <a href="./theloai-phim.html" class="rev-a">Hai huoc</a><br><hr>
+                    <a href="./theloai-phim.html" class="rev-a">Tinh cam</a><br><hr>
+                    <a href="./theloai-phim.html" class="rev-a">Kinh dị</a><br><hr>
+                    <a href="./theloai-phim.html" class="rev-a">Phiêu lưu</a><br><hr>
+                    <a href="./theloai-phim.html" class="rev-a">Hành động</a><hr>
+                    <a href="./theloai-phim.html" class="rev-a">Học đường</a>
+                </div>
+                <hr>
+                <div class="menu-chung">
+                    <div class="menu-chung-1" id="quocgia-bang">Quoc gia</div>
+                    
+                </div><hr id="hr-rev2">
+                <div class="bang-theloai-rep" id="theloai-bang2" >
+                    <a href="./quocgai-phim.html" class="rev-a">my</a><br><hr>
+                    <a href="./quocgai-phim.html" class="rev-a">Viet Nam</a><br><hr>
+                    <a href="./quocgai-phim.html" class="rev-a">Nhat ban</a><br><hr>
+                    <a href="./quocgai-phim.html" class="rev-a">Trung quoc</a><br><hr>
+                    <a href="./quocgai-phim.html" class="rev-a">Thai Lan</a>
+                </div>
+
+                <hr>
+                <div class="menu-chung">
+                    <a href="./phim-le.html" style="text-decoration:none; color: black;">
+                        <div class="menu-chung-1">Phim lẻ</div>
+                    </a>
+                </div>
+                <hr>
+                <div class="menu-chung">
+                    <a href="./phim-chieu-rap.html" style="text-decoration:none; color: black;">
+                        <div class="menu-chung-1">Phim chiếu rạp</div>
+                    </a>
+                </div>
+                <hr>
+                <div class="menu-chung">
+                    <a href="./phim-bo.html" style="text-decoration:none; color: black;">
+                        <div class="menu-chung-1">Phim bộ</div>
+                    </a>
+                    
+
+                </div>
+                <hr>
+                <div class="menu-chung">
+                    <a href="./trailer.html" style="text-decoration:none; color: black;">
+                        <div class="menu-chung-1">Trailer</div>
+                    </a>
+
+                </div>
+                <hr>
+            </div>
+            <div id="bang-dangnhap-rev">
+                <div id="dau-x-dang-rev">
+                    <i class="fa-solid fa-xmark x-dangnhap-rev" ></i>
+                </div>
+                
+                
+                <div class="bang-dangnhap-user bang-dangnhap-chung">
+                    <i class="fa-solid fa-user icon-chung"></i>
+                    <input type="text" id="bang-dangnhap-user-input-rev" placeholder="Số điện thoại hoặc email" class="icon-chung bang-dangnhap-input-chung">
+                    
+                </div>
+                <div class="bang-dangnhap-pass bang-dangnhap-chung">
+                    <i class="fa-solid fa-lock icon-chung " id="matnguoi1"></i>
+                    <input type="password" id="bang-dangnhap-pass-input-rev" placeholder="Mật khẩu" class="icon-chung bang-dangnhap-input-chung">
+                    <i class="fa-solid fa-eye eye-chung" id="mat-mo-rev"></i>
+                    <i class="fa-solid fa-eye-slash eye-chung" id="mat-dong-rev"></i>
+                </div>
+                <button type="submit" id="bang-dangnhap-sup-rev" >Dang nhap</button>
+                <div class="quenmatkhau-dangnhap" id="quen-mk-rev">Quên mật khẩu!</div>
+                <hr style="margin-top: 17vw;">
+                <div class="hoac-tieptuc">Hoặc tiếp tục với</div>
+                <div class="google-fb">
+                    <i class="fa-brands fa-facebook fb"></i>
+                    <i class="fa-brands fa-google gg"></i>
+                </div>
+
+                
+            </div>
+            <div class="bang-quen-matkhau" id="bang-quen-mk-rev">
+                <div id="dau-x-quen-mk-rev">
+                    <i class="fa-solid fa-xmark x-quen-mk-rev" ></i>
+                </div>
+                <p class="lay-lai-matkhau-p">Lay lai mat khau</p>
+                <input type="text" class="bang-quen-matkhau-iput" id="matkhau-ip1-rev" placeholder="Nhap so dien thoai hoac email">
+                <input type="text" class="bang-quen-matkhau-iput2" id="matkhau-ip2-rev" placeholder="Nhap ma xac nhan">
+                <div class="bang-dangnhap-pass bang-dangnhap-chung" id="o-pass1-rev">
+                    <i class="fa-solid fa-lock icon-chung"></i>
+                    <input type="password" id="bang-dangnhap-pass-input2-rev" placeholder="Mật khẩu mới" class="icon-chung bang-dangnhap-input-chung">
+                    <i class="fa-solid fa-eye eye-chung" id="mat-mo2-rev"></i>
+                    <i class="fa-solid fa-eye-slash eye-chung" id="mat-dong2-rev" ></i>
+                </div>
+                <div class="bang-dangnhap-pass bang-dangnhap-chung"  id="o-pass2-rev">
+                    <i class="fa-solid fa-lock icon-chung"></i>
+                    <input type="password" id="bang-dangnhap-pass-input3-rev" placeholder="Nhập lại mật khẩu" class="icon-chung bang-dangnhap-input-chung">
+                    <i class="fa-solid fa-eye eye-chung" id="mat-mo3-rev"></i>
+                    <i class="fa-solid fa-eye-slash eye-chung" id="mat-dong3-rev" ></i>
+                </div>
+                <p class="doi-mk-thanhcong" id="hoanthanh-mk-rev">Ban da doi mat khau thanh cong</p>
+                <button id="quen-matkhau-but-rev" type="submit">Nhận mã</button>
+                <button id="quen-matkhau-but2-rev" type="submit">Gửi mã</button>
+                <button id="quen-matkhau-but3-rev" type="submit">Xác nhận</button>
+                <button id="quen-matkhau-but4-rev" type="submit">Dang nhap</button>
+            </div>
+            <div id="bang-dangky-rev">
+                <div id="dau-x-dangky-rev">
+                    <i class="fa-solid fa-xmark x-dangky-rev" ></i>
+                </div>
+
+                <div class="bang-dangnhap-user bang-dangnhap-chung">
+                    <i class="fa-solid fa-user icon-chung" id="matnguoi2"></i>
+                    <input type="text" id="bang-dangky-user-input-rev" placeholder="Số điện thoại hoặc email" class="icon-chung bang-dangnhap-input-chung">
+                    
+                </div>
+                <div class="bang-dangnhap-pass bang-dangnhap-chung">
+                    <i class="fa-solid fa-lock icon-chung" id="matnguoi3"></i>
+                    <input type="password" id="bang-dangky-pass-input-rev" placeholder="Mật khẩu" class="icon-chung bang-dangnhap-input-chung">
+                    <i class="fa-solid fa-eye eye-chung" id="mat-mo4-rev"></i>
+                    <i class="fa-solid fa-eye-slash eye-chung" id="mat-dong4-rev"></i>
+                </div>
+                <div class="bang-dangnhap-pass bang-dangnhap-chung">
+                    <i class="fa-solid fa-lock icon-chung" id="matnguoi4"></i>
+                    <input type="password" id="bang-dangky-pass-input2-rev" placeholder="Nhap lai mật khẩu" class="icon-chung bang-dangnhap-input-chung">
+                    <i class="fa-solid fa-eye eye-chung" id="mat-mo5-rev"></i>
+                    <i class="fa-solid fa-eye-slash eye-chung" id="mat-dong5-rev"></i>
+                </div>
+                <button type="submit" id="bang-dangky-sup-rev" >Dang ky</button>
+            </div>
+    </div>
+    <div class="cloumn-layout">
+        
+        <div class="cloumn logo-anime">
+            <a href="./index.html">
+                <img class="logo-anime-img" src="./hình/One_Piece_Anime_Logo.webp" alt=""> 
+            </a>
+
+            <div class="center-anime">
+                    <ul class="center-anime-menu">
+                        <li class="anime-li-menu">
+                            <div class="anime-item" id="theloai" >THỂ LOẠI
+                                <div class="bang-theloai" id="bang-tl">
+                                    <ul class="bang-ul">
+                                        <li class="bang-quocgia-li">
+                                            <a href="./theloai-phim.html" class="bang-quocgia-a">Hài hước</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./theloai-phim.html" class="bang-quocgia-a">Tình cảm</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./theloai-phim.html" class="bang-quocgia-a">Kinh dị</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./theloai-phim.html" class="bang-quocgia-a">Phiêu lưu</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./theloai-phim.html" class="bang-quocgia-a">Hành động</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./theloai-phim.html" class="bang-quocgia-a">Học đường</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./theloai-phim.html" class="bang-quocgia-a">Hoạt hình</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div href="" class="anime-item" id="quocgia">QUỐC GIA
+                                <div class="bang-theloai" id="bang-qg">
+                                    <ul class="bang-ul">
+                                        <li class="bang-quocgia-li">
+                                            <a href="./quocgai-phim.html" class="bang-quocgia-a">Anh</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./quocgai-phim.html" class="bang-quocgia-a">My</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./quocgai-phim.html" class="bang-quocgia-a">Viet Nam</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./quocgai-phim.html" class="bang-quocgia-a">Nhat Ban</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./quocgai-phim.html" class="bang-quocgia-a">Trung quoc</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./quocgai-phim.html" class="bang-quocgia-a">Han Quoc</a>
+                                        </li>
+                                        <li class="bang-quocgia-li">
+                                            <a href="./quocgai-phim.html" class="bang-quocgia-a">Thai Lan</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div href="" class="anime-item"><a href="./phim-le.html" class="anime-aaa">PHIM LẺ</a></div>
+                            <div href="" class="anime-item"><a href="./phim-chieu-rap.html" class="anime-aaa">PHIM CHẾU RẠP</a></div>
+                            <div href="" class="anime-item"><a href="./phim-bo.html" class="anime-aaa" style="border-bottom: 0.2vw solid #F80">PHIM BỘ</a></div>
+                            <div href="" class="anime-item"><a href="./trailer.html" class="anime-aaa">TRAILER</a></div>
+                        </li>
+                    </ul>
+                    
+                    
+                    
+            </div>
+            <div class="seach">
+                <button class="seach-button" >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input class="seach-input" type="text" placeholder=" Seach">
+                
+            </div>
+        </div>
+    </div>
+    <div class="phim-anime-1">
+        <a href="./bo-tgqd.html" class="phim-anime-a">
+            <img src="./hình/tgdq-avt.jpg" alt="" class="phim-anime-img">
+            <p class="phim-anime-p">Thanh gươm diệt quỷ</p>
+            <div class="lopphu-phim-anime">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="sotap-anime">
+                <p class="sotap-anime-p">Tập 25/25</p>
+            </div>
+        </a>
+        <a href="" class="phim-anime-a">
+            <img src="./hình/onepice-avt.jpg" alt="" class="phim-anime-img">
+            <p class="phim-anime-p">One piece</p>
+            <div class="lopphu-phim-anime">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="sotap-anime">
+                <p class="sotap-anime-p">Tập 20/20 </p>
+            </div>
+        </a>
+        <a href="" class="phim-anime-a">
+            <img src="./hình/narutocuto.webp" alt="" class="phim-anime-img">
+            <p class="phim-anime-p">Naruto</p>
+            <div class="lopphu-phim-anime">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="sotap-anime">
+                <p class="sotap-anime-p">Tập 23/23</p>
+            </div>
+        </a>
+        <a href="" class="phim-anime-a">
+            <img src="./hình/drmavt.jpg" alt="" class="phim-anime-img">
+            <p class="phim-anime-p">Doremon</p>
+            <div class="lopphu-phim-anime">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="sotap-anime">
+                <p class="sotap-anime-p">Tập 21/21</p>
+            </div>
+        </a>
+        <a href="" class="phim-anime-a">
+            <img src="./hình/dragon-ball-avt.jpg" alt="" class="phim-anime-img">
+            <p class="phim-anime-p">Dragon ball</p>
+            <div class="lopphu-phim-anime">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="sotap-anime">
+                <p class="sotap-anime-p">Tập 29/29</p>
+            </div>
+        </a>
+        <a href="" class="phim-anime-a">
+            <img src="./hình/conanavt.jpg" alt="" class="phim-anime-img">
+            <p class="phim-anime-p">Conan</p>
+            <div class="lopphu-phim-anime">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="sotap-anime">
+                <p class="sotap-anime-p">Tập 24/24</p>
+            </div>
+        </a>
+        <a href="" class="phim-anime-a">
+            <img src="./hình/Black-Cloveravt.png" alt="" class="phim-anime-img">
+            <p class="phim-anime-p">Black clover</p>
+            <div class="lopphu-phim-anime">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="sotap-anime">
+                <p class="sotap-anime-p">Tập 15/15</p>
+            </div>
+        </a>
+        <a href="" class="phim-anime-a">
+            <img src="./hình/cdmxavt.png" alt="" class="phim-anime-img">
+            <p class="phim-anime-p">Con đường mùa xuân</p>
+            <div class="lopphu-phim-anime">
+                <i class="fa-solid fa-circle-play"></i>
+            </div>
+            <div class="sotap-anime">
+                <p class="sotap-anime-p">Tập 45/45</p>
+            </div>
+        </a>
+    </div>
+    <hr color="#e2a600" style="width:90% ; margin:3vw auto;">
+    <div class="cuoi-trang">
+        <div class="cuoitrang-p">WEB ANIME</div>
+        <div class="cuoitrang-p2">Dự án: Web làm phim</div>
+        <div class="cuoitrang-p2">Gồm các thành viên:
+        <div class="cuoitrang-p2">Hồng Nguyễn Thanh Vân _ MSV:201325</div>
+        <div class="cuoitrang-p2">Nguyễn Hoàng Phát _ MSV:    </div>
+        <div class="cuoitrang-p2">Võ Văn Khánh _ MSV:</div>
+        <div class="cuoitrang-p2">Phan Tấn Kiệt _MSV:</div>
+        <marquee behavior="" direction="right" class="logo-marquee" style="font-weight: 700;">
+            WEB ANIME
+        </marquee> 
+    
+        </div>
+    </div>
+    <script src="./mainC.js"></script>
+    
+</body>
+</html>

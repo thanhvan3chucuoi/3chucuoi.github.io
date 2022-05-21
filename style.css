@@ -1,0 +1,1196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(0,#31302f,#000000);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    height: 3.5vw;
+    position: relative;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin:auto 16px;
+
+    
+}
+.cloumn{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.nav-item{
+    margin: auto 8px;
+    text-decoration: none;
+    font-size: 2vw;
+    margin: auto;
+    
+    
+}
+
+.logo-marquee{
+    color: red;
+    font-size: 5vw;
+
+}
+.logo-anime-img{
+    width: 15vw;
+    height: auto; 
+    margin-left: 15px;  
+}
+.center-anime{
+    display:block;
+    margin: 2vw;
+    justify-content: space-around;
+    text-align: center;
+    width: 60vw;
+    height: 6vw;
+    
+}
+.anime-li-menu{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.anime-item{
+    display: block;
+    float: left;
+    z-index: 2;
+}
+.center-anime-menu {
+    list-style: none;
+    margin:auto;
+}
+.anime-aaa{
+    color: pink;
+    text-decoration: none;
+}
+
+.center-anime-menu .anime-item {
+    cursor: pointer;
+    margin:0 1vw;
+    color: pink;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+.anime-item:hover{
+    color: azure;
+}
+.seach{
+    display: flex;
+    width:auto  ;
+    height: 47px;
+    margin-right: 1vw;
+}
+.seach-input {
+    background-color: rgb(17, 17, 17);
+    border: 0px;
+    width: 17vw;
+    height: 4vw;
+    color: white;
+    list-style: none;
+    display: flex;
+    font-size: 1.7vw;
+    outline: none;
+}
+.seach-button{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    margin: 0 0px;  
+    border: 0px;
+    display: flex;
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+ 
+}
+.fa-magnifying-glass{
+    font-size: 1.7vw;
+    margin: auto;
+    cursor:pointer;
+    
+}
+.seach-button:hover .fa-magnifying-glass{
+    color: aqua;
+}
+.phim-hot-1{
+    width: 100%;
+    height: 10vw;
+}
+.phim-hot-1-2{
+    width: 15vw;
+    height: 10vw;
+    vertical-align: middle;
+    display: table-cell;
+}
+.phimhot-canggiua{
+    width: 100%;
+    height: 5vw;
+    margin: 2vw 3vw;
+    text-align: center ;
+    
+}
+.phim-hot-p{
+   margin-left: 10px;
+   width: 15vw;
+   height: 5vw;
+   border:  1px solid #f80;
+   margin: auto;
+   border-radius: 100px;
+   vertical-align: middle;
+    display: table-cell;
+    font-size: 2.8vw;
+    font-weight: 700;
+    color: #f80;
+
+}
+.phimhot-2{
+    width: 50vw;
+    height: 5vw;
+    display: flex;
+}
+.dau-ten-phimhot{
+    width: 1vw;
+    height: 3.5vw;
+    background-color: #f80;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.ten-phimhot-a{
+    font-size: 3vw;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+.ten-phimhot-a:hover {
+    color: #f80;
+}
+.tap-phimhot-1{
+    width: 100%;
+    height: 20vw;
+    overflow: hidden;
+    display:flex;
+    padding-top: 3vw;
+    position: relative;
+}
+.tap-phimhot-ul{
+    width: 90%;
+    height: 100%;
+    transition: all linear 0.2s;
+}
+.tap-phimhot-a{
+    width: 26vw;
+    height: 20vw;
+    margin-left: 3vw;
+    text-decoration: none;
+}
+.tap-phimhot-img{
+    width: 26vw;
+    height: 15vw;
+}
+.tap-phimhot-img:hover{
+    box-sizing:border-box ;
+    box-shadow:0 0 15px #f5ad27; /*đổ bóng*/
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+.tap-phimhot-ul{
+    display: flex;
+}
+.tentap-phimhot-p{
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+}
+.phim-anime-1{
+    width: 100%;
+    height: 110vw;
+    
+  
+}
+.phim-anime-a{
+    float: left;
+    width: 22.5vw;
+    height: 40vw;
+    text-decoration: none;
+    text-align: center;
+    margin:  1vw 0.5vw 1vw 1vw;
+    position: relative;
+}
+.phim-anime-a:hover .lopphu-phim-anime{
+    display: block;
+}
+.phim-anime-img{
+    width: 22.5vw;
+    height: 35vw;
+}
+.phim-anime-p{
+    font-size: 2vw;
+    color: white;
+}
+.lopphu-phim-anime{
+    width: 22.5vw;
+    height: 35.5vw;
+    background-color: rgba(27, 27, 27, 0.671);
+    z-index: 1;
+    position: absolute;
+    margin-top: -37.6vw;
+    display: none;
+}
+.fa-circle-play{
+    font-size: 7vw;
+    margin: 14.5vw 0;
+    color: red;
+}
+.sotap-anime{
+    width: 8vw;
+    height: 2.3vw;
+    border-radius: 10px;
+    margin: -8vw 0 0 1vw;
+    position: absolute;
+    z-index: 1;
+    border: 0.2vw solid blue;
+    background-color: rgba(0, 0, 255, 0.658);
+}
+.sotap-anime-p{
+    margin-top: 0.3vw;
+    color: white;
+    font-size: 1.5vw;
+}
+.bang-theloai{
+    width: 25vw;
+    height: auto;
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    float: left;
+    display:none;
+    cursor: default;
+    border-top: 0.5vw solid #f80;
+    border-radius:0.5vw ;
+    margin-left: -2vw;
+    margin-top: 1vw;
+}
+
+#bang-qg{
+    width: 25vw;
+    height: auto;
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    float: left;
+    display:none;
+    cursor: default;
+    border-top: 0.5vw solid #f80;
+    border-radius:0.5vw ;
+    margin-left: -3.5vw;
+    margin-top: 1vw;
+    z-index: 2;
+}
+.anime-item:hover{
+    border-bottom: 3px solid #f80;
+}
+.bang-quocgia-li{
+    list-style: none;
+    padding: 1vw;
+    float: left;
+}
+.bang-quocgia-a{
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 700;
+    color: rgb(126, 77, 5);
+
+}
+.bang-quocgia-a:hover{
+    color: #f80;
+
+}
+.bang-theloai::after{
+    content: "";
+    width: 100%;
+    height: 2vw;
+    margin-left: 0vw;
+    display:block;
+    position: absolute;
+    margin-top: -2vw;
+}
+.bang-theloai::before{
+    content: "";
+    border: 0.8vw solid;
+    border-color: transparent transparent #f80  transparent;
+    position: absolute;
+    right: 19.5vw;
+    top: -2vw;
+}
+#bang-qg::before{
+    content: "";
+    border: 0.8vw solid;
+    border-color: transparent transparent #f80  transparent;
+    position: absolute;
+    right: 17vw;
+    top: -2vw;
+}
+.menu{
+    width: 8vw;
+    height: 8vw;
+    display:none;
+    z-index: 1;
+   
+}
+.nav-list-li{
+    display: flex;
+}
+.item-dangnhap{
+    margin-left: 2vw;
+    color: #f80;
+}
+
+
+.fa-user{
+    color: #f80;
+}
+.fa-lock{
+    color: #f80;
+}
+.item-dangnhap:hover .fa-user .item-dangnhap:hover .fa-lock{
+    color: #f80;
+}
+.dau{
+    width: 0.5vw;
+    border-radius: 0;
+}
+#dangnhap{
+   
+    cursor: pointer;
+
+}
+#dangxuat{
+    display: none;
+}
+#bang-dangnhap{
+    background-color: aliceblue;
+    position: absolute;
+    width: 22vw;
+    height: 19vw;
+    z-index: 2;
+    margin-top: 1vw;
+    display: none;
+    cursor: default;
+    margin-left: -0.42vw;
+    
+}
+#dangky{
+    position: relative;
+}
+#bang-dangky{
+    background-color: aliceblue;
+    position: absolute;
+    width: 22vw;
+    height: 15vw;
+    z-index: 2;
+    margin-top: 1vw;
+    margin-left: -14vw;
+    display: none;
+    cursor: default;
+    
+}
+#nut-dangky{
+    cursor: pointer;
+}
+
+.bang-dangnhap-chung{
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    margin: 1vw 0;
+}
+.bang-dangnhap-input-chung{
+    background-color: aliceblue;
+    width: 14vw;
+    height: 2vw;
+    border: 0px;
+    font-size: 1.1vw;
+    border-bottom:0.1vw solid #000 ;
+    outline: none;
+}
+#bang-dangnhap-sup{
+    background-color: #f80;
+    position:absolute;
+    cursor: pointer;
+    border: 0px;
+    font-size: 1vw;
+    width: 10vw;
+    height: 2vw;
+    margin: 0vw 3vw 0vw 6vw;
+}
+#bang-dangnhap-sup:hover{
+    background-color: rgb(194, 103, 0);
+    color: #000;
+}
+#bang-dangky-sup{
+    background-color: #f80;
+    position:absolute;
+    cursor: pointer;
+    border: 0px;
+    width: 10vw;
+    height: 2vw;
+    margin: 0vw 3vw 0vw 6vw;
+}
+#bang-dangky-sup:hover{
+    background-color: rgb(194, 103, 0);
+    color: #000;
+}
+.eye-chung{
+    color: #000000;
+    font-size: 1.3vw;
+    margin: 0.5vw;
+    
+}
+#mat-dong, #mat-dong2, #mat-dong3, #mat-dong4, #mat-dong5{
+    display: block;
+    cursor: pointer;
+}
+#mat-mo, #mat-mo2, #mat-mo3, #mat-mo4, #mat-mo5{
+    display: none;
+    cursor: pointer;
+}
+.icon-chung{
+    margin-left: 1vw;
+}
+.fa-xmark{
+    position: absolute;
+    font-size: 2vw;
+    margin-left: 20vw;
+    color: #f80;
+    cursor: pointer;
+}
+.fa-xmark:hover{
+    color: rgba(255, 136, 0, 0.651);
+
+}
+#theloai{
+    position: relative;
+}
+#theloai:hover{
+    border-bottom: 3px solid #f80 ;
+}
+#bang-tl{
+    position: absolute;
+    
+}
+#theloai:hover #bang-tl{
+    display: block;
+
+}
+#quocgia:hover #bang-qg{
+    display: block;
+}
+.prev-movie2 {
+    opacity: 0;
+    z-index: 1; 
+    color: white; 
+    font-size: 5vw; 
+    margin-top: 5vw;
+    
+    float: left;
+}
+.next-movie2{
+   
+    z-index: 1; 
+    color: white; 
+    font-size: 5vw; 
+    margin-top: 5vw;
+    float: right;
+}
+
+
+.next-movie2:hover{
+    color: #f80;
+}
+.prev-movie {
+    opacity: 0;
+    z-index: 1; 
+    color: white; 
+    font-size: 5vw; 
+    margin-top: 5vw;
+}
+.prev-movie:hover{
+    color: #f80;
+}
+.prev-movie2:hover{
+    color: #f80;
+}
+.next-movie{
+    z-index: 1; 
+    color: white; 
+    font-size: 5vw; 
+    margin-top: 5vw;
+}
+.fa-angle-right{
+    cursor: pointer;
+    color: white;
+}
+
+.fa-angle-right:hover{
+    color: #f80;
+}
+.next-movie:hover{
+    color: #f80;
+}
+.next-movie3{
+    z-index: 1; 
+    color: white; 
+    font-size: 5vw; 
+    margin-top: 5vw;
+}
+.prev-movie3 {
+    opacity: 0;
+    z-index: 1; 
+    color: white; 
+    font-size: 5vw; 
+    margin-top: 5vw;
+}
+.next-movie3:hover{
+    color: #f80;
+}
+.prev-movie3:hover{
+    color: #f80;
+}
+.quenmatkhau-dangnhap{
+    font-size: 1vw;
+    color: rgb(24, 68, 163);
+    position: absolute;
+    margin: 3vw 1vw 1vw 7.5vw;
+}
+.quenmatkhau-dangnhap:hover{
+    color: #f80;
+}
+.hoac-tieptuc{
+    font-size: 1vw;
+    color: rgb(4, 7, 12);
+    position: absolute;
+    margin: 0.5vw 1vw 1vw 7vw;
+}
+.google-fb{
+    position: absolute;
+    margin: 3vw 1vw 1vw 9vw;
+}
+.fb{
+    color: blue;
+
+}
+.fb:hover{
+    color: rgba(0, 0, 255, 0.774);
+}
+.gg{
+    color: red;
+}
+.gg:hover{
+    color: rgba(255, 0, 0, 0.74);
+}
+.bang-quen-matkhau{
+    background-color: aliceblue;
+    position: absolute;
+    width: 22vw;
+    height: 12vw;
+    z-index: 2;
+    margin-left: -0.4vw;
+    margin-top: 1vw;
+    display: none;
+    cursor: default;
+}
+.bang-quen-matkhau:hover #dangnhap{
+    color: #f80;
+}
+.bang-dangnhap:hover #dangnhap{
+    color: #f80;
+}
+.bang-quen-matkhau-iput{
+    background-color: aliceblue;
+    position: absolute;
+    margin: 1vw 1vw 1vw 3vw;
+    width: 16vw;
+    height: 2vw;
+    border: 0px;
+    font-size: 1.1vw;
+    border-bottom:0.1vw solid #000 ;
+    outline: none;
+    display: block;
+}
+.bang-quen-matkhau-iput2{
+    background-color: aliceblue;
+    position: absolute;
+    margin: 1vw 1vw 1vw 3vw;
+    width: 16vw;
+    height: 2vw;
+    border: 0px;
+    font-size: 1.1vw;
+    border-bottom:0.1vw solid #000 ;
+    outline: none;
+    display: none;
+}
+#o-pass2{
+    display: none;
+}
+#o-pass1{
+    display: none;
+}
+.lay-lai-matkhau-p{
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #000;
+    margin: 1vw 1vw 1vw 5vw;
+}
+#quen-matkhau-but{
+    background-color: #f80;
+    display: block;
+    cursor: pointer;
+    border: 0px;
+    width: 10vw;
+    height: 2vw;
+    margin: 5vw 3vw 0vw 6vw;
+}
+#quen-matkhau-but2{
+    background-color: #f80;
+    display: none;
+    cursor: pointer;
+    border: 0px;
+    width: 10vw;
+    height: 2vw;
+    margin: 5vw 3vw 0vw 6vw;
+}
+#quen-matkhau-but3{
+    background-color: #f80;
+    display: none;
+    cursor: pointer;
+    border: 0px;
+    width: 10vw;
+    height: 2vw;
+    margin: 0vw 3vw 0vw 6vw;
+}
+#quen-matkhau-but4{
+    background-color: #f80;
+    display: none;
+    cursor: pointer;
+    border: 0px;
+    width: 10vw;
+    height: 2vw;
+    margin: 2vw 3vw 0vw 6vw;
+}
+#quen-matkhau-but:hover, #quen-matkhau-but2:hover, #quen-matkhau-but3:hover, #quen-matkhau-but4:hover {
+    background-color: rgb(194, 103, 0);
+    color: #000;
+}
+.doi-mk-thanhcong{
+    display: none;
+    font-size: 1.2vw;
+    color: #f80;
+    margin-left: 2vw;
+}
+.cuoi-trang{
+    width: 100%;
+    height: 50vw;
+    background-image: linear-gradient(0,#7c7c7c,#ffffff);
+}
+.cuoitrang-p{
+    margin: 3vw 0 3vw 0;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 900;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+}
+@-webkit-keyframes my {
+    0% { color: #F8CD0A; } 
+    50% { color: rgb(29, 32, 227);  } 
+    100% { color: #c85c2e;  } 
+}
+.cuoitrang-p2{
+    font-size: 3vw;
+    font-weight: 700;
+    margin: 1vw ;
+    color: #0e058b;
+    text-align: center;
+}
+
+#bang-menu{
+    display: none;
+    position: absolute;
+}
+
+#menu-phai{
+    display: none;
+   margin-right: -70vw;
+    
+}
+
+#bang-dangnhap-rev{
+    display: none;
+    margin-top: -100vw;
+}
+#bang-dangky-rev{
+    display: none;
+    margin-top: -100vw;
+
+}
+.nav-list-li {
+    display: flex;
+    margin-left: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 46.1875em){
+    .center-anime{
+        display: none;
+    }
+    .dau{
+        display: none;
+    }
+    .seach{
+        float: right;
+    }
+    
+    .seach-button{
+        width: 30px;
+        height: 30px;
+    }
+    .seach-input{
+        width: 150px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+    .fa-magnifying-glass{
+        font-size: 1rem;
+    }
+    .logo-marquee{
+        height: 70px;
+        font-size: 3rem;
+    }
+    .logo-anime-img{
+        width: 100px;
+        height: auto;
+        
+    }
+    .nav{
+        height: 8vw;
+    }
+    .nav-item{
+        font-size: 5vw;
+    }
+    .item-dangnhap{
+        display: none;
+        position: absolute;
+    }
+    .menu{
+        margin-left: 87vw;
+        width: 8vw;
+        height: 8vw;
+        display:block;
+        border-radius: 1px;
+        position: absolute;
+    }
+    .fa-bars{
+        font-size: 8vw;
+        margin: 0.5px;
+        margin-left: 0.65vw;
+        margin-top: -0.1px;
+    }
+    .ten-phimhot-a{
+        font-size: 4vw;
+    }
+    .phimhot-2{
+        width: 80vw;
+        height: 4vw;
+        margin-bottom: 2vw;
+    }
+    .dau-ten-phimhot{
+        width: 1vw;
+        height: 4.3vw;
+    }
+    
+    #bang-menu{
+        width: 100vw;
+        height: 260vw;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.959);
+        margin: 8vw 0 0 -100vw;
+        display: none;
+        z-index: 2;
+    }
+    .bang-menu-phai{
+        width: 50vw;
+        height: auto;
+        background-color: #31302f;
+        z-index: 3;
+        margin-top: 8vw;       
+        position: absolute;
+        margin-left: 50vw;
+        opacity: 2;
+        display: none;
+        
+    }
+    .dangnhap-phu, #nut-dangky{
+        display: none;
+    }
+    .dangnhap-gia, .dangki-gia{
+        width: 100%;
+        height: 7vw;
+        background-color: #31302f;
+        
+    }
+    .menu-chung{
+        width: 100%;
+        height: 7vw;
+        margin-left: 10vw;
+        background-color: #31302f;
+        cursor: default;
+    }
+    .menu-chung-1{
+        width: 40vw;
+        height: 7vw;
+        font-size: 4vw;
+        margin-top: 0vw;
+        position: absolute;
+        margin: 1vw 1vw 1vw 0vw;
+        cursor: default;
+        float: left;
+        cursor: pointer;
+        
+    }
+    /* #bang-dangnhap{
+        width: 100vw;
+        height: 100vw;
+        margin: 100vw 1vw 1vw -200vw;
+        z-index: 3;
+        display: block;
+        position: absolute;
+    } */
+    #bang-dangnhap-rev{
+        display: none;
+        background-color: aliceblue;
+        position: absolute;
+        z-index: 2;
+        width: 50vw;
+        height:60vw;
+        margin-top: 8vw;
+    }
+    .bang-theloai-rep{
+        display:block;
+        margin-left: 15vw;
+        width: 30vw;
+        height: auto;
+       
+    }
+    .rev-a{
+        width: 100%;
+        height: 10vw;
+        float: left;
+        margin-left: 5vw;
+        font-size: 4vw;
+        text-decoration: none;
+        margin-top: 1vw;
+        margin-bottom:-4vw;
+        color: #e6e3e0;
+        
+    }
+    #hr-rev,
+     #hr-rev2{
+        display: none;
+    }
+    .quenmatkhau-dangnhap{
+        font-size: 3vw;
+        color: rgb(24, 68, 163);
+        position: absolute;
+        margin: 11vw 1vw 1vw 13vw;
+    }
+    .quenmatkhau-dangnhap:hover{
+        color: #f80;
+    }
+    .hoac-tieptuc{
+        font-size: 3vw;
+        color: rgb(4, 7, 12);
+        position: absolute;
+        margin: 3.5vw 1vw 1vw 12vw;
+    }
+    .google-fb{
+        position: absolute;
+        margin: 10vw 1vw 1vw 18vw;
+    }
+    .fb{
+        font-size: 5vw;
+        color: blue;
+    
+    }
+    .fb:hover{
+        color: rgba(0, 0, 255, 0.774);
+    }
+    .gg{
+        font-size: 5vw;
+        color: red;
+    }
+    .gg:hover{
+        color: rgba(255, 0, 0, 0.74);
+    }
+    .bang-quen-matkhau{
+        background-color: aliceblue;
+        position: absolute;
+        width: 50vw;
+        height: 38vw;
+        z-index: 2;
+        margin-top: 8vw;
+        display: none;
+        cursor: default;
+    }
+    .bang-quen-matkhau:hover #dangnhap{
+        color: #f80;
+    }
+    .bang-dangnhap:hover #dangnhap{
+        color: #f80;
+    }
+    .x-quen-mk-rev{
+        font-size: 5vw;
+    }
+    .bang-quen-matkhau-iput{
+        background-color: aliceblue;
+        position: absolute;
+        margin: 3vw 1vw 1vw 4vw;
+        width: 41vw;
+        height: 7vw;
+        border: 0px;
+        font-size: 3vw;
+        border-bottom:0.1vw solid #000 ;
+        outline: none;
+        display: block;
+        text-align: center;
+    }
+    .bang-quen-matkhau-iput2{
+        background-color: aliceblue;
+        position: absolute;
+        margin: 3vw 1vw 1vw 4vw;
+        width: 41vw;
+        height: 7vw;
+        border: 0px;
+        font-size: 3vw;
+        border-bottom:0.1vw solid #000 ;
+        outline: none;
+        display: none;
+        text-align: center;
+    }
+    #o-pass2-rev{
+        display: none;
+    }
+    #o-pass1-rev{
+        display: none;
+    }
+    .lay-lai-matkhau-p{
+        font-size: 3.5vw;
+        font-weight: 700;
+        color: #000;
+        margin: 3vw 1vw 1vw 12vw;
+    }
+    #quen-matkhau-but-rev{
+        background-color: #f80;
+        display: block;
+        cursor: pointer;
+        border: 0px;
+        position: absolute;
+        width: 25vw;
+        height: 7vw;
+        margin: 15vw 3vw 0vw 12vw;
+    }
+    #quen-matkhau-but2-rev{
+        background-color: #f80;
+        display: none;
+        cursor: pointer;
+        border: 0px;
+        width: 25vw;
+        height: 7vw;
+        margin: 15vw 3vw 0vw 12vw;
+    }
+    #quen-matkhau-but3-rev{
+        background-color: #f80;
+        display: none;
+        cursor: pointer;
+        border: 0px;
+        width: 25vw;
+        height: 7vw;
+        margin: 2vw 3vw 0vw 12vw;
+    }
+    #quen-matkhau-but4-rev{
+        background-color: #f80;
+        display:none;
+        cursor: pointer;
+        border: 0px;
+        width: 25vw;
+        height: 7vw;
+        margin: 7vw 3vw 0vw 12vw;
+    }
+    #quen-matkhau-but-rev:hover, #quen-matkhau-but2-rev:hover, #quen-matkhau-but3-rev:hover, #quen-matkhau-but4-rev:hover {
+        background-color: rgb(194, 103, 0);
+        color: #000;
+    }
+    .doi-mk-thanhcong{
+        text-align: center;
+        display: none;
+        font-size: 3vw;
+        color: #f80;
+        margin-left: 0vw;
+        margin-top: 7vw;
+    }
+    
+    #dangky{
+        position: relative;
+    }
+    #bang-dangky-rev{
+        background-color: aliceblue;
+        position: absolute;
+        width: 50vw;
+        height: 50vw;
+        z-index: 2;
+        margin-top: 8vw;
+        
+        display: none;
+        cursor: default;
+        
+    }
+    #nut-dangky-rev{
+        cursor: pointer;
+    }
+
+    .bang-dangnhap-chung{
+        width: 50vw;
+        height: 10vw;
+        display: flex;
+        justify-content:left;
+        margin: 1vw 0 0 0;
+    }
+ 
+    #bang-dangnhap-sup-rev{
+        background-color: #f80;
+        position:absolute;
+        cursor: pointer;
+        border: 0px;
+        width: 24vw;
+        height: 7vw;
+        margin: 1vw 3vw 0vw 12vw;
+    }
+    #bang-dangnhap-sup-rev:hover{
+        background-color: rgb(194, 103, 0);
+        color: #000;
+    }
+    #bang-dangky-sup-rev{
+        background-color: #f80;
+        position:absolute;
+        cursor: pointer;
+        border: 0px;
+        width: 24vw;
+        height: 7vw;
+        margin: 1vw 3vw 0vw 12vw;
+    }
+    #bang-dangky-sup-rev:hover{
+        background-color: rgb(194, 103, 0);
+        color: #000;
+    }
+    .eye-chung{
+        color: #000000;
+        font-size: 4vw;
+        margin-top: 3vw;
+        margin-left: 1vw;
+        
+    }
+    #mat-dong-rev, #mat-dong2-rev, #mat-dong3-rev, #mat-dong4-rev, #mat-dong5-rev{
+        display: block;
+        cursor: pointer;
+    }
+    #mat-mo-rev, #mat-mo2-rev, #mat-mo3-rev, #mat-mo4-rev, #mat-mo5-rev{
+        display: none;
+        cursor: pointer;
+    }
+    .icon-chung{
+        margin-top: 2vw;
+        margin-left: 1vw;
+        font-size:5vw;
+    }
+    .fa-xmark{
+        position: absolute;
+        font-size: 5vw;
+        margin-left: 45vw;
+        color: #f80;
+        cursor: pointer;
+    }
+    .fa-xmark:hover{
+        color: rgba(255, 136, 0, 0.651);
+
+        
+    }
+    .x-dangnhap-rev{
+        font-size: 5vw;
+        margin-left: 45vw;
+    }
+    .bang-dangnhap-input-chung{
+        background-color: aliceblue;
+        width: 30vw;
+        height: 6vw;
+        border: 0px;
+        font-size: 2.5vw;
+        border-bottom:0.1vw solid #000 ;
+        outline: none;
+    }
+    .icon-chung{
+        margin-left: 2.5vw;
+    }
+    #dangxuat-rev{
+        display: none;
+    }
+    .fa-circle-chevron-left{
+        font-size: 9vw;
+        margin: -1vw -1vw 1vw 1vw;
+    }
+    .fa-circle-chevron-right{
+        font-size: 9vw;
+        margin: -1vw 0vw 1vw -9.8vw;
+
+    }
+    .lopphu-phim-anime{
+        width: 22.5vw;
+        height: 35.5vw;
+        background-color: rgba(27, 27, 27, 0.671);
+        z-index: 1;
+        position: absolute;
+        margin-top: -38.6vw;
+        display: none;
+    }
+
+}
+
+
